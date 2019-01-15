@@ -238,8 +238,11 @@ Then, the parameters in real world $a',b',c'$ can be obtained.
 #### Useful tool
 I use [ffmpeg](https://askubuntu.com/questions/648603/how-to-create-an-animated-gif-from-mp4-video-via-command-line) to convert video to gif pictures.
 
+#### Updated result with new curvature calculation
 
-
+|Project Video|Challenge Video|
+|-------------|-------------|
+|![alt text](./output_images/project_updated.gif)|![alt text](./output_images/challenge_updated.gif)
 
 
 
