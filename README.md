@@ -217,6 +217,26 @@ Here are the results of the project and challenge videos:
 
 
 
+---
+### Updated curvature calculation
+
+In picutre domain, the lane line can be fitted by 
+
+$x=ay^2+by+c$
+
+In real world, $x$ and $y$ should be scaled based on $m_x$ and $m_y$, e.g. meter/pixel, then the lane line can be represented as 
+
+$(xm_x)=a'(ym_y)^2+b'(ym_y)+c'$
+
+$m_x x=m_y^2a'y^2+m_yb'y+c'$
+
+So we can get $a=\frac{m_y^2}{m_x}a'$, $b=\frac{m_y}{m_x}b'$, $c=\frac{1}{m_x}c'$.
+
+Then, the parameters in real world $a',b',c'$ can be obtained.
+
+
+#### Useful tool
+I use [ffmpeg](https://askubuntu.com/questions/648603/how-to-create-an-animated-gif-from-mp4-video-via-command-line) to convert video to gif pictures.
 
 
 
